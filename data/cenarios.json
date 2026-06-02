@@ -1,0 +1,57 @@
+[
+  {
+    "nome": "Operação Normal",
+    "descricao": "Todos os parâmetros dentro dos ranges normais",
+    "dados": {
+      "ndvi_saude": 88.0,
+      "temperatura": 32.0,
+      "armazenamento": 45.0,
+      "energia": 76.0,
+      "downlink": 91.0
+    }
+  },
+  {
+    "nome": "Sensor NDVI Degradado",
+    "descricao": "Sensor multiespectral com saúde abaixo do limiar",
+    "dados": {
+      "ndvi_saude": 42.0,
+      "temperatura": 35.0,
+      "armazenamento": 50.0,
+      "energia": 68.0,
+      "downlink": 85.0
+    }
+  },
+  {
+    "nome": "Temperatura Crítica",
+    "descricao": "Payload óptico superaquecendo",
+    "dados": {
+      "ndvi_saude": 75.0,
+      "temperatura": 71.0,
+      "armazenamento": 55.0,
+      "energia": 60.0,
+      "downlink": 88.0
+    }
+  },
+  {
+    "nome": "Energia Crítica",
+    "descricao": "Painéis solares com geração insuficiente",
+    "dados": {
+      "ndvi_saude": 80.0,
+      "temperatura": 28.0,
+      "armazenamento": 60.0,
+      "energia": 10.0,
+      "downlink": 79.0
+    }
+  },
+  {
+    "nome": "Falha Total de Downlink",
+    "descricao": "Comunicação com Terra severamente comprometida",
+    "dados": {
+      "ndvi_saude": 85.0,
+      "temperatura": 30.0,
+      "armazenamento": 90.0,
+      "energia": 55.0,
+      "downlink": 12.0
+    }
+  }
+]

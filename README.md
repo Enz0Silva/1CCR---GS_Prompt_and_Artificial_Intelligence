@@ -4,7 +4,7 @@
 
 - Eric Hernandes Penhalbell — RM: 570237 — Turma: 1CCR
 - Enzo Ricardo Silva — RM: 571333 — Turma: 1CCR
-- João Guilherme Figueiredo  — RM: 572697 — Turma: 1CCR
+- João Guilherme Figueiredo — RM: 572697 — Turma: 1CCR
 
 ## O que o projeto faz
 
@@ -27,7 +27,12 @@ O AgroSat Mission Control AI simula o monitoramento operacional de um satélite 
 3. Instale dependências: `pip install -r requirements.txt`
 4. Crie arquivo `.env` na raiz com:
    `OLLAMA_API_KEY=sua_chave_aqui`
-5. Execute: `python main.py`
+5. Execute pelo **PowerShell ou CMD externos** (não pelo terminal integrado do PyCharm):
+   ```bash
+   python main.py
+   ```
+
+> ⚠️ **Importante:** o `prompt-toolkit` requer um console Windows real. Sempre execute pelo PowerShell ou CMD externos — o terminal integrado do PyCharm não é suportado.
 
 ## Arquitetura técnica
 
@@ -92,8 +97,9 @@ O system prompt define a identidade, escopo e formato de resposta da IA. Instrui
 
 ## Demonstração
 
-![Status normal da missão](assets/screenshot_normal.png)
-![Alerta crítico com análise da IA](assets/screenshot_alerta.png)
+O Status normal da Missão
+
+Alerta Crítico com Analise da IA
 
 ## System Prompt
 
@@ -113,8 +119,9 @@ O system prompt completo está em [`prompts/system_prompt.md`](prompts/system_pr
 - O histórico de telemetria é perdido ao encerrar o sistema (memória apenas em sessão)
 - A API Ollama Cloud pode ter latência variável dependendo da carga do serviço
 - Não há persistência de logs entre sessões
+- O sistema requer execução via PowerShell ou CMD externos no Windows (não compatível com terminal integrado do PyCharm)
 
-## 💼 Proposta de valor / modelo de negócio
+## Proposta de valor / modelo de negócio
 
 **1. Qual o problema real terrestre que esta missão resolve?**
 
