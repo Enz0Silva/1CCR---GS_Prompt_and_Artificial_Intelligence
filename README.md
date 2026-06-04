@@ -147,5 +147,4 @@ Se o AgroSat-1 operar com 99% de disponibilidade por 1 ano (vs. 85% sem monitora
 - *Concessão pública:* parceria com AEB/EMBRAPA para programas governamentais de segurança alimentar e mapeamento de safra nacional
 
 ## Vídeo de demonstração
-
-🎥 [Assistir no YouTube](https://www.youtube.com/watch?v=.)
+https://youtu.be/xl58VBKGWUc
